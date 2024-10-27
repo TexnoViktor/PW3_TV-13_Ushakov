@@ -3,7 +3,6 @@ package com.example.pw3_tv_13_ushakov
 data class CalculationResult(val profit: Double, val penalty: Double)
 
 fun calculateProfit(power: Double, deviation: Double, error: Double, price: Double): CalculationResult {
-    // Приклади обчислень на основі наданих даних
     val deltaW1 = 0.2 // 20% енергії генерується без збитків
     val deltaW2 = 0.68 // 68% енергії генерується після вдосконалення
 
